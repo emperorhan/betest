@@ -1,4 +1,4 @@
-NODEOSBINDIR="/home/eos/eos/build/programs"
+NODEOSBINDIR="/home/CR/eos/build/programs"
 
 WALLETHOST="127.0.0.1"
 NODEHOST="127.0.0.1"

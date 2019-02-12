@@ -7,7 +7,7 @@ sleep 1s
 ./00_WALLET_IMPORT.sh &> /dev/null
 
 #run eosio node. see datadir for logs
-/home/eos/eos/build/programs/nodeos/nodeos -e -p eosio --plugin eosio::producer_plugin --max-transaction-time=300 --plugin eosio::chain_api_plugin --plugin eosio::net_api_plugin --signature-provider=EOS7rjT9akyXh7upDay9nk9veD4sJcZQNfgL9NUhM3g61TcVGAoc7=KEY:5KKT5m2ZS443wDesNxJxhrEw7Yr73T3mxQWQoDEhTVjeQyoRwXG --genesis-json /home/eos/ibctprivate/genesis.json --delete-all-blocks > /home/eos/ibctprivate/stdout.txt 2> /home/eos/ibctprivate/stderr.txt & echo $! > /home/eos/ibctprivate/nodoes.pid
+/home/CR/eos/build/programs/nodeos/nodeos -e -p eosio --plugin eosio::producer_plugin --max-transaction-time=300 --plugin eosio::chain_api_plugin --plugin eosio::net_api_plugin --signature-provider=EOS7rjT9akyXh7upDay9nk9veD4sJcZQNfgL9NUhM3g61TcVGAoc7=KEY:5KKT5m2ZS443wDesNxJxhrEw7Yr73T3mxQWQoDEhTVjeQyoRwXG --genesis-json /home/CR/betest/genesis.json --delete-all-blocks > /home/CR/betest/stdout.txt 2> /home/CR/betest/stderr.txt & echo $! > /home/CR/betest/nodoes.pid
 
 cd ../node
 ./start.sh

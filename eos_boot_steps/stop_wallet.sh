@@ -1,4 +1,4 @@
-DIR="/home/eos/ibctprivate/wallet"
+DIR="/home/CR/betest/wallet"
 
     if [ -f $DIR"/wallet.pid" ]; then
         pid=$(cat $DIR"/wallet.pid")

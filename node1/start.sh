@@ -6,7 +6,7 @@
 #
 ###############################################################################
 
-NODEOSBINDIR="/home/eos/eos/build/programs/nodeos"
+NODEOSBINDIR="/home/CR/eos/build/programs/nodeos"
 DATADIR="$( jq -r '.DIR' "config.conf" )"
 PRODUCER_NAME="$( jq -r '.ACCOUNT' "config.conf" )"
 PUB_KEY="$( jq -r '.PUB_KEY' "config.conf" )"
